@@ -29,7 +29,7 @@ onUnmounted(() => stop())
       <!-- Animated background -->
       <div class="absolute inset-0 -z-10">
         <div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-purple-500/5 to-pink-500/10 dark:from-primary/20 dark:via-purple-500/10 dark:to-pink-500/20" />
-        <div class="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
+        <div class="absolute inset-0 bg-[url('~/assets/grid.svg')] opacity-10" />
       </div>
 
       <div class="container-custom">
@@ -193,7 +193,7 @@ onUnmounted(() => stop())
 
     <!-- CTA Section -->
     <section class="section relative overflow-hidden bg-gradient-to-br from-primary via-purple-600 to-pink-600 text-white">
-      <div class="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
+      <div class="absolute inset-0 bg-[url('~/assets/grid.svg')] opacity-10" />
       
       <div class="container-custom relative">
         <div class="mx-auto max-w-3xl text-center">
